@@ -33,7 +33,7 @@ test('test', async ({ page }) => {
   await page.hover("//a[@data-toggle ='dropdown']//span[contains(.,'My account')]")
 
 //   await page.getByRole('link', { name: 'Logout' }).click();
-  await page.click("//span[text()[normalize-space()='Logout']]")
-  await expect(page).toHaveURL('https://ecommerce-playground.lambdatest.io/index.php?route=account/logout');
+  // await page.click("//span[text()[normalize-space()='Logout']]")
+  // await expect(page).toHaveURL('https://ecommerce-playground.lambdatest.io/index.php?route=account/logout');
 
 });

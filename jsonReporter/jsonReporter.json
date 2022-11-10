@@ -20,7 +20,7 @@
         "testDir": "/Users/Patrick/Desktop/Learn_plyawright",
         "testIgnore": [],
         "testMatch": [
-          "**/?(*.)@(spec|test).*"
+          "**.test.ts"
         ],
         "timeout": 30000
       }
@@ -58,13 +58,13 @@
   },
   "suites": [
     {
-      "title": "tests/frames.test.ts",
-      "file": "tests/frames.test.ts",
+      "title": "tests/recorded.test.ts",
+      "file": "tests/recorded.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Frame interact",
+          "title": "test",
           "ok": true,
           "tags": [],
           "tests": [
@@ -78,26 +78,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 9512,
+                  "duration": 9220,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Number.of frames:24\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2022-11-08T12:25:20.681Z",
+                  "startTime": "2022-11-10T05:14:37.100Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-frames-Frame-interact/video.webm"
+                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-recorded-test/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-frames-Frame-interact/test-finished-1.png"
+                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-recorded-test/test-finished-1.png"
                     }
                   ]
                 }
@@ -105,9 +101,9 @@
               "status": "expected"
             }
           ],
-          "id": "ee77907c2abffffa1fe6-ecf2d46a05e37f499e38",
-          "file": "tests/frames.test.ts",
-          "line": 2,
+          "id": "aeb89487b60598200775-43f81897c6d5d1a76b28",
+          "file": "tests/recorded.test.ts",
+          "line": 3,
           "column": 1
         }
       ]
