@@ -26,7 +26,7 @@ test("Dropdown type value first way", async({page})=>{
     
 })
 // second way 
-test.only("Dropdown type value second way", async({page})=>{
+test("Dropdown type value second way", async({page})=>{
     await page.goto("https://www.lambdatest.com/selenium-playground/jquery-dropdown-search-demo")
     await page.click("#country+span");
     await page.locator("#select2-country-results")
@@ -38,7 +38,7 @@ test.only("Dropdown type value second way", async({page})=>{
 })
 // third way 
 
-test.only("Dropdown type value second way with multiple selected", async({page})=>{
+test("Dropdown type value second way with multiple selected", async({page})=>{
     await page.goto("https://www.lambdatest.com/selenium-playground/jquery-dropdown-search-demo")
     await selectCountry("India");
     await selectCountry("Denmark");

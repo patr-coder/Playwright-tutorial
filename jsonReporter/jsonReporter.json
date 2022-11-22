@@ -59,302 +59,182 @@
   },
   "suites": [
     {
-      "title": "pomtest/addToCart.test.ts",
-      "file": "pomtest/addToCart.test.ts",
+      "title": "tests/dropdown.test.ts",
+      "file": "tests/dropdown.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "page object test demo",
-          "file": "pomtest/addToCart.test.ts",
-          "line": 10,
-          "column": 6,
-          "specs": [
+          "title": "dropdown select",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Register Costumers test_01",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 13039,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-11-22T10:39:00.488Z",
+                  "attachments": [
                     {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 12574,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2022-11-22T09:07:10.590Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCart-page-object-test-demo-Register-Costumers-test-01/video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCart-page-object-test-demo-Register-Costumers-test-01/test-finished-1.png"
-                        }
-                      ]
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-dropdown-dropdown-select/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-dropdown-dropdown-select/test-finished-1.png"
                     }
-                  ],
-                  "status": "expected"
+                  ]
                 }
               ],
-              "id": "1c188a18f2ecab048a02-e0a08d37f2c42a29fa76",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 11,
-              "column": 5
-            },
-            {
-              "title": "Login test_02",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 10209,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2022-11-22T09:07:24.129Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCart-page-object-test-demo-Login-test-02/video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCart-page-object-test-demo-Login-test-02/test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "1c188a18f2ecab048a02-77b48beb5666a3b3e348",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 32,
-              "column": 5
-            },
-            {
-              "title": "Add to cart test_03",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 7303,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2022-11-22T09:07:34.340Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCart-page-object-test-demo-Add-to-cart-test-03/video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCart-page-object-test-demo-Add-to-cart-test-03/test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "1c188a18f2ecab048a02-d8c0454679156b4b52ba",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 42,
-              "column": 5
+              "status": "expected"
             }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "pomtest/ChooseArticles.test.ts",
-      "file": "pomtest/ChooseArticles.test.ts",
-      "column": 0,
-      "line": 0,
-      "specs": [],
-      "suites": [
-        {
-          "title": "Register Costumers",
-          "file": "pomtest/ChooseArticles.test.ts",
-          "line": 10,
-          "column": 7,
-          "specs": [
-            {
-              "title": "Register",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 9256,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2022-11-22T09:07:10.591Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-ChooseArticles-Register-Costumers-Register/video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-ChooseArticles-Register-Costumers-Register/test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "d888aedb998aa11120b8-40ada03918e3929f6399",
-              "file": "pomtest/ChooseArticles.test.ts",
-              "line": 11,
-              "column": 5
-            }
-          ]
+          ],
+          "id": "6a3d7e996dd4874286aa-d077afad4d5efae1b2fb",
+          "file": "tests/dropdown.test.ts",
+          "line": 3,
+          "column": 1
         },
         {
-          "title": "Costumer Login in and Buy ",
-          "file": "pomtest/ChooseArticles.test.ts",
-          "line": 26,
-          "column": 7,
-          "specs": [
+          "title": "Dropdown type value first way",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Login",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 6393,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-11-22T10:39:14.203Z",
+                  "attachments": [
                     {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 7405,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2022-11-22T09:07:20.811Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-ChooseArticles-Costumer-Login-in-and-Buy-Login/video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-ChooseArticles-Costumer-Login-in-and-Buy-Login/test-finished-1.png"
-                        }
-                      ]
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-dropdown-Dropdown-type-value-first-way/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-dropdown-Dropdown-type-value-first-way/test-finished-1.png"
                     }
-                  ],
-                  "status": "expected"
+                  ]
                 }
               ],
-              "id": "d888aedb998aa11120b8-b968aeed3a46d9c886f7",
-              "file": "pomtest/ChooseArticles.test.ts",
-              "line": 30,
-              "column": 5
-            },
-            {
-              "title": "buying add to cart",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
-                    {
-                      "workerIndex": 1,
-                      "status": "passed",
-                      "duration": 6989,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2022-11-22T09:07:28.218Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-ChooseArticles-Costumer-Login-in-and-Buy-buying-add-to-cart/video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-ChooseArticles-Costumer-Login-in-and-Buy-buying-add-to-cart/test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
-                }
-              ],
-              "id": "d888aedb998aa11120b8-7123c0e0d3e72e20e0d3",
-              "file": "pomtest/ChooseArticles.test.ts",
-              "line": 38,
-              "column": 5
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "6a3d7e996dd4874286aa-fe1ea7dd724649334753",
+          "file": "tests/dropdown.test.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "Dropdown type value second way",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 5486,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-11-22T10:39:20.597Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-dropdown-Dropdown-type-value-second-way/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-dropdown-Dropdown-type-value-second-way/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6a3d7e996dd4874286aa-bb75693578991c9fc865",
+          "file": "tests/dropdown.test.ts",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "Dropdown type value second way with multiple selected",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1576,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2022-11-22T10:39:26.084Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-dropdown-Dropdown-type-value-second-way-with-multiple-selected/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-dropdown-Dropdown-type-value-second-way-with-multiple-selected/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6a3d7e996dd4874286aa-fef5553abbd110878dfa",
+          "file": "tests/dropdown.test.ts",
+          "line": 41,
+          "column": 1
         }
       ]
     }
