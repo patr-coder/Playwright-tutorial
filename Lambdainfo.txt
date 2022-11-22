@@ -1,0 +1,1 @@
+File name is lorem The HTML input input is an input element to enter an array of different values. Eash input type checkbox has value attribute which is used to define the value submitted by the checkbox.

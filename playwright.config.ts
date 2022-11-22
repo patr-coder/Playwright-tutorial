@@ -13,8 +13,11 @@ import { devices } from '@playwright/test';
 const config: PlaywrightTestConfig = {
   // testMatch: ["tests/recorded.test.ts"],
   // testMatch: ["tests/basicInterActions.test.ts"],
-  testMatch: ["**.test.ts"], // workflows actions will execute all files 
+  //testMatch: ["**.test.ts"], // workflows actions will execute all files and all files will display and run 
+
+testMatch: ["**.test.ts","pomtest/addToCart.test.ts" ],  // specify the folder will be run 
   use: {
+    baseURL: "https://ecommerce-playground.lambdatest.io/index.php?",
     headless:false, // using browser 
     screenshot : "on",  // use screenshot
     // screenshot : "off",  // use screenshot

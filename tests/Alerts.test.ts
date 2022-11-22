@@ -16,12 +16,13 @@ test("handle button OK ",async ({page}) => {
     await page.goto("https://www.lambdatest.com/selenium-playground/javascript-alert-box-demo")
     page.on("dialog", async(alert)=>{
         const text = alert.message();
-        console.log(text);;
+        console.log(text);
         await alert.accept();
 
     })
     await page.locator("p[class='text-gray-900 text-size-16 mt-10 text-black font-bold'] button[type='button']").click()
     expect(page.locator("#confirm-demo")).toContainText("You pressed OK!")
+    // await expect(page.getByAltText()) 
 })
 test("handle button Cancel ",async ({page}) => {
 
