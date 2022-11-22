@@ -7,7 +7,7 @@ test.describe("navigation",function() {
     });
 
 let facebookPage: Page;
-test.only("Windows Interact with one tabs", async ({page})=>{
+test("Windows Interact with one tabs", async ({page})=>{
 
     // await page.goto("https://www.lambdatest.com/selenium-playground/window-popup-modal-demo");
     
