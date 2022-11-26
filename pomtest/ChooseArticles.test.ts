@@ -4,7 +4,7 @@ import Register from "../pagesTasks/register"
 import Home from "../pagesTasks/home"
 import BuyArticles from "../pagesTasks/buy"
 
-const email = "atrick@masonworke.co.jp"
+const email = "atrick@masonworkep.co.jp"
 const password = "password"
 
 // Register Customer Account 

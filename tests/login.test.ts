@@ -1,10 +1,11 @@
 import { chromium,test } from '@playwright/test'
-test("Login test demo",async () => {
+test("Login test demo",async () => { 
 
     const browser =  await chromium.launch({
-        headless: false
+        // headless: false
     });
     const context = await browser.newContext();
+
     const page = await context.newPage();
 
 
@@ -13,17 +14,21 @@ test("Login test demo",async () => {
     // await page.click("text=Login")
     await page.click("'Login'")
 
-    await page.fill("input[name='email']","patrickmukadi2017@gmail.com")
-    await page.fill("input[name='password']","Masonwork2023.")
+    await page.fill("input[name='email']","johnpatrics@gmail.com")
+    await page.fill("input[name='password']","password")
     await page.click("input[value='Login']");
 
-    await page.waitForTimeout(5000);
+    await page.close();
+    await context.close();
+    await browser.close();
 
-    const newContext = await browser.newContext()
-    const newPage = await newContext.newPage();
-    await newPage.goto("https://ecommerce-playground.lambdatest.io/index.php?route=account/account")
+    // await page.waitForTimeout(5000);
 
-    await page.waitForTimeout(5000);
+    // const newContext = await browser.newContext()
+    // const newPage = await newContext.newPage();
+    // await newPage.goto("https://ecommerce-playground.lambdatest.io/index.php?route=account/account")
+
+    // await page.waitForTimeout(5000);
 
 
 

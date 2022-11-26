@@ -10,10 +10,8 @@ import { devices } from '@playwright/test';
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
+ 
 const config: PlaywrightTestConfig = {
-  // testMatch: ["tests/recorded.test.ts"],
-  // testMatch: ["tests/basicInterActions.test.ts"],
-  //testMatch: ["**.test.ts"], // workflows actions will execute all files and all files will display and run 
 
 testMatch: ["**.test.ts","pomtest/addToCart.test.ts" ],  // specify the folder will be run 
   use: {
@@ -28,7 +26,7 @@ testMatch: ["**.test.ts","pomtest/addToCart.test.ts" ],  // specify the folder w
   reporter : 
   [["dot"],
   ["json",{outputFile: "jsonReporter/jsonReporter.json" }],
-  ["html",{open : "always"  }]]  // automatically generated report file
+  ["html",{open : "always"  }]],  // automatically generated report file
     // ["html",{open : "never"  }]] no reporting file
 
 
@@ -63,29 +61,30 @@ testMatch: ["**.test.ts","pomtest/addToCart.test.ts" ],  // specify the folder w
   //   trace: 'on-first-retry',
   // },
 
-  /* Configure projects for major browsers */
-  // projects: [
-  //   {
-  //     name: 'chromium',
-  //     use: {
-  //       ...devices['Desktop Chrome'],
-  //     },
-  //   },
+  //  Configure projects for major browsers 
+  projects: [
+    {
+      name: 'chromium',
+      use: {
+        ...devices['Desktop Chrome'],
+      },
+    },
 
-  //   {
-  //     name: 'firefox',
-  //     use: {
-  //       ...devices['Desktop Firefox'],
-  //     },
-  //   },
+    {
+      name: 'firefox',
+      use: {
+        ...devices['Desktop Firefox'],
+      },
+    },
 
-  //   {
-  //     name: 'webkit',
-  //     use: {
-  //       ...devices['Desktop Safari'],
-  //     },
-  //   },
-
+    {
+      name: 'webkit',
+      use: {
+        ...devices['Desktop Safari'],
+      },
+  }],
+    
+  
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',

@@ -1,4 +1,4 @@
-import{Page} from "@playwright/test"
+import{expect,Page} from "@playwright/test"
 // Home Page Dashboard and Click button , Wait Navigation 
 export default class HomePage{
 
@@ -12,5 +12,8 @@ export default class HomePage{
         ])
     
        
+    }
+    async title(){ 
+       await expect(this.title()).toBe("My Account");
     }
 }
