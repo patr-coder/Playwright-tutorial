@@ -1,17 +1,17 @@
 import{ expect, Page, test } from "@playwright/test";
 
-test.describe("navigation",function() {
+test.use({viewport: {width:390, height:884}})
+
+test.describe("Device viewport Iphone 14  A",function() {
     test.beforeEach(async ({ page }) => {
       // Go to the starting url before each test.
       await page.goto("https://www.lambdatest.com/selenium-playground/window-popup-modal-demo");
-
       console.log(await page.viewportSize()?.width)
       console.log(await page.viewportSize()?.height)
     });
-    
 
 let facebookPage: Page;
-test("Windows Interact with one tabs", async ({page})=>{
+test("Device viewport Iphone 14  B", async ({page})=>{
 
     // await page.goto("https://www.lambdatest.com/selenium-playground/window-popup-modal-demo");
     
@@ -23,7 +23,7 @@ test("Windows Interact with one tabs", async ({page})=>{
     ]);
     console.log(newWindow.url());
 })
-test("Windows Interact with multiple tabs", async ({page})=>{
+test("Device viewport Iphone 14 C", async ({page})=>{
 
     // await page.goto("https://www.lambdatest.com/selenium-playground/window-popup-modal-demo");
    
