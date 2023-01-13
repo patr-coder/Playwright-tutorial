@@ -28,7 +28,6 @@ test("Device viewport Iphone 14 C", async ({page})=>{
 
     // await page.goto("https://www.lambdatest.com/selenium-playground/window-popup-modal-demo");
    
-    
     console.log(page.url());
  
     const [newWindows] = await Promise.all([
