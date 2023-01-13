@@ -67,7 +67,7 @@ testMatch: ["**.test.ts","pomtest/addToCart.test.ts" ],  // specify the folder w
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
-        viewport:{width:1920,height:1080},
+        // viewport:{width:1920,height:1080},
       },
     },
 

@@ -87,62 +87,42 @@
   },
   "suites": [
     {
-      "title": "pomtest/addToCartUsingFixture.test.ts",
-      "file": "pomtest/addToCartUsingFixture.test.ts",
+      "title": "tests/login.test.ts",
+      "file": "tests/login.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "page object test demo",
-          "file": "pomtest/addToCartUsingFixture.test.ts",
-          "line": 9,
-          "column": 6,
-          "specs": [
+          "title": "Login test demo",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Add to cart test_03",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
-                    {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 13705,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-01-13T14:28:42.518Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCartUsingFixture-page-object-test-demo-Add-to-cart-test-03-chromium/video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCartUsingFixture-page-object-test-demo-Add-to-cart-test-03-chromium/test-finished-1.png"
-                        }
-                      ]
-                    }
-                  ],
-                  "status": "expected"
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 7170,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-01-13T14:52:02.773Z",
+                  "attachments": []
                 }
               ],
-              "id": "92fe7589f3cd844569b7-067dd3e93ba183f8d968",
-              "file": "pomtest/addToCartUsingFixture.test.ts",
-              "line": 46,
-              "column": 5
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "ef85df6096d4739f2c52-fdd8e266dc43380049b0",
+          "file": "tests/login.test.ts",
+          "line": 2,
+          "column": 1
         }
       ]
     }
