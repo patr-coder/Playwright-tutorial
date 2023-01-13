@@ -87,60 +87,62 @@
   },
   "suites": [
     {
-      "title": "tests/viewport.test.ts",
-      "file": "tests/viewport.test.ts",
+      "title": "pomtest/addToCartUsingFixture.test.ts",
+      "file": "pomtest/addToCartUsingFixture.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "device",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "page object test demo",
+          "file": "pomtest/addToCartUsingFixture.test.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
+              "title": "Add to cart test_03",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 26225,
-                  "errors": [],
-                  "stdout": [
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
                     {
-                      "text": "\u001b[33m390\u001b[39m\n"
-                    },
-                    {
-                      "text": "\u001b[33m884\u001b[39m\n"
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 13705,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-01-13T14:28:42.518Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCartUsingFixture-page-object-test-demo-Add-to-cart-test-03-chromium/video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCartUsingFixture-page-object-test-demo-Add-to-cart-test-03-chromium/test-finished-1.png"
+                        }
+                      ]
                     }
                   ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-01-13T13:59:51.170Z",
-                  "attachments": [
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-viewport-device-chromium/video.webm"
-                    },
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-viewport-device-chromium/test-finished-1.png"
-                    }
-                  ]
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "id": "92fe7589f3cd844569b7-067dd3e93ba183f8d968",
+              "file": "pomtest/addToCartUsingFixture.test.ts",
+              "line": 46,
+              "column": 5
             }
-          ],
-          "id": "957cab5b80dfea437ce9-db25bd76963e4f471302",
-          "file": "tests/viewport.test.ts",
-          "line": 3,
-          "column": 1
+          ]
         }
       ]
     }

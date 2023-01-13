@@ -4,7 +4,7 @@ import LoginPage from "../pages/loginPage";
 import HomePage from "../pages/homePage";
 import SpecialHotPage from "../pages/specialHotPage";
 
-const email = "network@t-partynersnrsys.co.jp";
+const email = "network@t-partynersnrsyst.co.jp";
 const password = "0123456789";
 
 // Register Customer Account 
@@ -14,7 +14,7 @@ test.describe("page object test demo", function(){
         await page.goto(`${baseURL}route=account/register`);
         const register = new  RegisterPage(page);
         await register.enterFirstName("partners");
-        await register.enterLastName("pat");
+        await register.enterLastName("patron");
         await register.enterEmail(email);
         await register.enterTelephone("08965767556")
         await register.enterPassword(password); 
