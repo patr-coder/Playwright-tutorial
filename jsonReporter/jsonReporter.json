@@ -87,42 +87,62 @@
   },
   "suites": [
     {
-      "title": "tests/login.test.ts",
-      "file": "tests/login.test.ts",
+      "title": "pomtest/addToCart.test.ts",
+      "file": "pomtest/addToCart.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [
+      "specs": [],
+      "suites": [
         {
-          "title": "Login test demo",
-          "ok": true,
-          "tags": [],
-          "tests": [
+          "title": "page object test demo",
+          "file": "pomtest/addToCart.test.ts",
+          "line": 11,
+          "column": 6,
+          "specs": [
             {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
+              "title": "Add to cart test_03",
+              "ok": true,
+              "tags": [],
+              "tests": [
                 {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 7170,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-01-13T14:52:02.773Z",
-                  "attachments": []
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 9384,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-01-13T18:34:22.463Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCart-page-object-test-demo-Add-to-cart-test-03-chromium/video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCart-page-object-test-demo-Add-to-cart-test-03-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
                 }
               ],
-              "status": "expected"
+              "id": "1c188a18f2ecab048a02-77200974a3bb2a17923a",
+              "file": "pomtest/addToCart.test.ts",
+              "line": 42,
+              "column": 3
             }
-          ],
-          "id": "ef85df6096d4739f2c52-fdd8e266dc43380049b0",
-          "file": "tests/login.test.ts",
-          "line": 2,
-          "column": 1
+          ]
         }
       ]
     }
