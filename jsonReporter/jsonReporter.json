@@ -87,155 +87,60 @@
   },
   "suites": [
     {
-      "title": "tests/devices.test.ts",
-      "file": "tests/devices.test.ts",
+      "title": "tests/viewport.test.ts",
+      "file": "tests/viewport.test.ts",
       "column": 0,
       "line": 0,
-      "specs": [],
-      "suites": [
+      "specs": [
         {
-          "title": "Device viewport Iphone 14  A",
-          "file": "tests/devices.test.ts",
-          "line": 5,
-          "column": 6,
-          "specs": [
+          "title": "device",
+          "ok": true,
+          "tags": [],
+          "tests": [
             {
-              "title": "Device viewport Iphone 14  B",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 26225,
+                  "errors": [],
+                  "stdout": [
                     {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 5101,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "\u001b[33m390\u001b[39m\n"
-                        },
-                        {
-                          "text": "\u001b[33m884\u001b[39m\n"
-                        },
-                        {
-                          "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
-                        },
-                        {
-                          "text": "https://twitter.com/Lambdatesting\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-01-09T13:55:56.513Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-devices-Device-viewport-Iphone-14-A-Device-viewport-Iphone-14-B-chromium/video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-devices-Device-viewport-Iphone-14-A-Device-viewport-Iphone-14-B-chromium/test-finished-1.png"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-devices-Device-viewport-Iphone-14-A-Device-viewport-Iphone-14-B-chromium/test-finished-2.png"
-                        }
-                      ]
+                      "text": "\u001b[33m390\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m884\u001b[39m\n"
                     }
                   ],
-                  "status": "expected"
-                }
-              ],
-              "id": "aed27aef35d77d9c7e89-c7a836394a4177f888c0",
-              "file": "tests/devices.test.ts",
-              "line": 14,
-              "column": 1
-            },
-            {
-              "title": "Device viewport Iphone 14 C",
-              "ok": true,
-              "tags": [],
-              "tests": [
-                {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "chromium",
-                  "projectName": "chromium",
-                  "results": [
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-01-13T13:59:51.170Z",
+                  "attachments": [
                     {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 5625,
-                      "errors": [],
-                      "stdout": [
-                        {
-                          "text": "\u001b[33m390\u001b[39m\n"
-                        },
-                        {
-                          "text": "\u001b[33m884\u001b[39m\n"
-                        },
-                        {
-                          "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
-                        },
-                        {
-                          "text": "No of tabs : 2\n"
-                        },
-                        {
-                          "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
-                        },
-                        {
-                          "text": "https://www.facebook.com/lambdatest/\n"
-                        },
-                        {
-                          "text": "LambdaTest\n"
-                        }
-                      ],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2023-01-09T13:56:02.481Z",
-                      "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-devices-Device-viewport-Iphone-14-A-Device-viewport-Iphone-14-C-chromium/video-1.webm"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-devices-Device-viewport-Iphone-14-A-Device-viewport-Iphone-14-C-chromium/video.webm"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-devices-Device-viewport-Iphone-14-A-Device-viewport-Iphone-14-C-chromium/test-finished-1.png"
-                        },
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-devices-Device-viewport-Iphone-14-A-Device-viewport-Iphone-14-C-chromium/test-finished-2.png"
-                        }
-                      ]
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-viewport-device-chromium/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-viewport-device-chromium/test-finished-1.png"
                     }
-                  ],
-                  "status": "expected"
+                  ]
                 }
               ],
-              "id": "aed27aef35d77d9c7e89-7de581567bfe9ada7851",
-              "file": "tests/devices.test.ts",
-              "line": 26,
-              "column": 1
+              "status": "expected"
             }
-          ]
+          ],
+          "id": "957cab5b80dfea437ce9-db25bd76963e4f471302",
+          "file": "tests/viewport.test.ts",
+          "line": 3,
+          "column": 1
         }
       ]
     }

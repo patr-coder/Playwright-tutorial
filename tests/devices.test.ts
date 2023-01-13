@@ -23,6 +23,7 @@ test("Device viewport Iphone 14  B", async ({page})=>{
     ]);
     console.log(newWindow.url());
 })
+
 test("Device viewport Iphone 14 C", async ({page})=>{
 
     // await page.goto("https://www.lambdatest.com/selenium-playground/window-popup-modal-demo");

@@ -15,10 +15,8 @@ test("First way Frame interact", async ({page})=>{
     const innerFrame = frame.frameLocator("iframe[src='innerFrame']")
     await innerFrame.locator("input[name='email']").fill("patrick@gmail.com")       
     await page.waitForTimeout(3000);
-
-
-
 })
+
 // Frame second way 
 test(" Second way Frame interact", async ({page})=>{
     await page.goto("https://letcode.in/frame")
@@ -30,8 +28,8 @@ test(" Second way Frame interact", async ({page})=>{
     await myFrame?.fill("input[name='lname']", "Patrick");
     expect(await myFrame?.locator("p.title.has-text-info").textContent()).toContain("You have entered")
     await page.waitForTimeout(3000);
-
 })
+
 // Frame with conditions
 test(" Second way Frame interact with conditions", async ({page})=>{
     await page.goto("https://letcode.in/frame")
@@ -47,5 +45,4 @@ test(" Second way Frame interact with conditions", async ({page})=>{
     await myFrame?.fill("input[name='lname']", "Patrick");
     await page.waitForTimeout(3000);
     expect(await myFrame?.locator("p.title.has-text-info").textContent()).toContain("You have entered") 
-
 })

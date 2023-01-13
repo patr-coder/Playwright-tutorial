@@ -17,6 +17,7 @@ test("dropdown select", async({page})=>{
         value : "Washington"
     },])
 })
+
 // first way 
 test("Dropdown type value first way", async({page})=>{
     await page.goto("https://www.dummyticket.com/dummy-ticket-for-visa-application/")
@@ -25,6 +26,7 @@ test("Dropdown type value first way", async({page})=>{
 
     
 })
+
 // second way 
 test("Dropdown type value second way", async({page})=>{
     await page.goto("https://www.lambdatest.com/selenium-playground/jquery-dropdown-search-demo")
@@ -36,8 +38,8 @@ test("Dropdown type value second way", async({page})=>{
         await page.waitForTimeout(3000)
  
 })
-// third way 
 
+// third way 
 test("Dropdown type value second way with multiple selected", async({page})=>{
     await page.goto("https://www.lambdatest.com/selenium-playground/jquery-dropdown-search-demo")
     await selectCountry("India");

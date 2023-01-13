@@ -4,6 +4,7 @@ test.describe("Upload  files", function (){
     test.beforeEach(async({page})=>{ 
         await page.goto("https://www.lambdatest.com/selenium-playground/generate-file-to-download-demo")
     })
+    
     test("Upload ", async ({page})=>{               
 
         await page.type("#textbox","File.txt ");
@@ -31,6 +32,7 @@ test.describe("Upload  files", function (){
         // await page.waitForTimeout(2000);
     })
 })
+
 test.describe("Download files", function (){
     test.beforeEach(async({page})=>{ 
         await page.goto("https://blueimp.github.io/jQuery-File-Upload/") 
@@ -41,8 +43,8 @@ test.describe("Download files", function (){
         "/Users/Patrick/Desktop/Learn_plyawright/uploadItems/RPA.png"]
         )
         await page.waitForTimeout(3000);
-
     })
+
     test("download multiples files ", async({page})=>{  
         const [uploadFiles] = await Promise.all([
             page.waitForEvent("filechooser"),
@@ -52,7 +54,5 @@ test.describe("Download files", function (){
         console.log(isMultiple);
         await uploadFiles.setFiles(["/Users/Patrick/Desktop/Learn_plyawright/uploadItems/laravel.png","/Users/Patrick/Desktop/Learn_plyawright/uploadItems/RPA.png"])
         await page.waitForTimeout(3000);
-
     })
-
 })

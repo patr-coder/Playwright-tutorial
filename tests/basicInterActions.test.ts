@@ -27,11 +27,11 @@ test("sum", async ({page})=>{
     let expectedResult = num1 + num2;
     await expect(result).toHaveText("" + expectedResult)
 })
+
 test("checkbox", async({page})=>{
     await page.goto("https://www.lambdatest.com/selenium-playground/checkbox-demo")
     const SingleCheck = await page.locator("#isAgeSelected")
     expect(SingleCheck).not.toBeChecked();
     await SingleCheck.check();
     await expect(SingleCheck).toBeChecked();
-
 }) 

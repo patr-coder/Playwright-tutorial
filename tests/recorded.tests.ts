@@ -35,5 +35,4 @@ test('test', async ({ page }) => {
 //   await page.getByRole('link', { name: 'Logout' }).click();
   // await page.click("//span[text()[normalize-space()='Logout']]")
   // await expect(page).toHaveURL('https://ecommerce-playground.lambdatest.io/index.php?route=account/logout');
-
 });

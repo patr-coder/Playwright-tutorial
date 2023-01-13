@@ -6,24 +6,24 @@ test("handle",async ({page}) => {
         const text = alert.message();
         console.log(text);;
         await alert.accept();
-
     })
     await page.locator("button[class='btn btn-dark my-30 mx-10 hover:bg-lambda-900 hover:border-lambda-900']").click()
     
 })
-test.only("handle button OK ",async ({page}) => {
+
+test("handle button OK ",async ({page}) => {
 
     await page.goto("https://www.lambdatest.com/selenium-playground/javascript-alert-box-demo")
     page.on("dialog", async(alert)=>{
         const text = alert.message();
         console.log(text);
         await alert.accept();
-
     })
     // await page.locator("p[class='text-gray-900 text-size-16 mt-10 text-black font-bold'] button[type='button']").click()
     // expect(page.locator("#confirm-demo")).toContainText("You pressed OK!")
     // await expect(page.getByAltText()) 
 })
+
 test("handle button Cancel ",async ({page}) => {
 
     await page.goto("https://www.lambdatest.com/selenium-playground/javascript-alert-box-demo")

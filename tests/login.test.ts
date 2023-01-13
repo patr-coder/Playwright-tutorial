@@ -28,9 +28,5 @@ test("Login test demo",async () => {
     // const newPage = await newContext.newPage();
     // await newPage.goto("https://ecommerce-playground.lambdatest.io/index.php?route=account/account")
 
-    // await page.waitForTimeout(5000);
-
-
-
-    
+    // await page.waitForTimeout(5000); 
 })
