@@ -1,8 +1,8 @@
 import { expect, test } from "@playwright/test";
-import RegisterPage from "../pages/registerPages"
+import RegisterPage from "../pages/registerPages.tss"
 import LoginPage from "../pages/loginPage";
-import HomePage from "../pages/homePage";
-import SpecialHotPage from "../pages/specialHotPage";
+import HomePage from "../pages/homePage.tss";
+import SpecialHotPage from "../pages/specialHotPage.tss";
 
 const email = "network@t-partynersnrsyst.co.jp";
 const password = "0123456789";
