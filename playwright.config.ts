@@ -13,7 +13,7 @@ import { devices } from '@playwright/test';
  
 const config: PlaywrightTestConfig = {
 
-testMatch: ["**.test.ts","pomtest/addToCart.test.ts" ],  // specify the folder will be run 
+testMatch: ["**.test.ts","" ],  // specify the folder will be run 
   use: {
     baseURL: "https://ecommerce-playground.lambdatest.io/index.php?",
     headless:false, // using browser 
