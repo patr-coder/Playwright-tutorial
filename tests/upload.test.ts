@@ -33,26 +33,26 @@ test.describe("Upload  files", function (){
     })
 })
 
-test.describe("Download files", function (){
-    test.beforeEach(async({page})=>{ 
-        await page.goto("https://blueimp.github.io/jQuery-File-Upload/") 
-    })
-    test("download", async({page})=>{
-        await page.setInputFiles("input[type='file']",
-        ["/Users/Patrick/Desktop/Learn_plyawright/uploadItems/laravel.png",
-        "/Users/Patrick/Desktop/Learn_plyawright/uploadItems/RPA.png"]
-        )
-        await page.waitForTimeout(3000);
-    })
+// test.describe("Download files", function (){
+//     test.beforeEach(async({page})=>{ 
+//         await page.goto("https://blueimp.github.io/jQuery-File-Upload/") 
+//     })
+//     test("download", async({page})=>{
+//         await page.setInputFiles("input[type='file']",
+//         ["/Users/Patrick/Desktop/Learn_plyawright/uploadItems/laravel.png",
+//         "/Users/Patrick/Desktop/Learn_plyawright/uploadItems/RPA.png"]
+//         )
+//         await page.waitForTimeout(3000);
+//     })
 
-    test("download multiples files ", async({page})=>{  
-        const [uploadFiles] = await Promise.all([
-            page.waitForEvent("filechooser"),
-            page.click("input[name='files[]']")
-        ]);
-        const isMultiple = uploadFiles.isMultiple();
-        console.log(isMultiple);
-        await uploadFiles.setFiles(["/Users/Patrick/Desktop/Learn_plyawright/uploadItems/laravel.png","/Users/Patrick/Desktop/Learn_plyawright/uploadItems/RPA.png"])
-        await page.waitForTimeout(3000);
-    })
-})
+//     test("download multiples files ", async({page})=>{  
+//         const [uploadFiles] = await Promise.all([
+//             page.waitForEvent("filechooser"),
+//             page.click("input[name='files[]']")
+//         ]);
+//         const isMultiple = uploadFiles.isMultiple();
+//         console.log(isMultiple);
+//         await uploadFiles.setFiles(["/Users/Patrick/Desktop/Learn_plyawright/uploadItems/laravel.png","/Users/Patrick/Desktop/Learn_plyawright/uploadItems/RPA.png"])
+//         await page.waitForTimeout(3000);
+//     })
+// })
