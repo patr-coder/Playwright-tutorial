@@ -37,7 +37,7 @@ test.describe("Download files", function (){
     test.beforeEach(async({page})=>{ 
         await page.goto("https://blueimp.github.io/jQuery-File-Upload/") 
     })
-    test("download ", async({page})=>{
+    test("download", async({page})=>{
         await page.setInputFiles("input[type='file']",
         ["/Users/Patrick/Desktop/Learn_plyawright/uploadItems/laravel.png",
         "/Users/Patrick/Desktop/Learn_plyawright/uploadItems/RPA.png"]

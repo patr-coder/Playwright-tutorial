@@ -59,20 +59,20 @@
   },
   "suites": [
     {
-      "title": "pomtest/addToCart.test.ts",
-      "file": "pomtest/addToCart.test.ts",
+      "title": "tests/windows.test.ts",
+      "file": "tests/windows.test.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "page object test demo",
-          "file": "pomtest/addToCart.test.ts",
-          "line": 11,
+          "title": "navigation",
+          "file": "tests/windows.test.ts",
+          "line": 3,
           "column": 6,
           "specs": [
             {
-              "title": "Add to cart test_03",
+              "title": "Windows Interact with multiple tabs",
               "ok": true,
               "tags": [],
               "tests": [
@@ -86,22 +86,54 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 6708,
+                      "duration": 5503,
                       "errors": [],
-                      "stdout": [],
+                      "stdout": [
+                        {
+                          "text": "\u001b[33m1280\u001b[39m\n"
+                        },
+                        {
+                          "text": "\u001b[33m720\u001b[39m\n"
+                        },
+                        {
+                          "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
+                        },
+                        {
+                          "text": "No of tabs : 2\n"
+                        },
+                        {
+                          "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
+                        },
+                        {
+                          "text": "https://www.facebook.com/lambdatest/\n"
+                        },
+                        {
+                          "text": "LambdaTest\n"
+                        }
+                      ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-01-18T18:29:00.744Z",
+                      "startTime": "2023-01-18T18:51:02.814Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCart-page-object-test-demo-Add-to-cart-test-03-chromium/video.webm"
+                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-windows-navigation-Windows-Interact-with-multiple-tabs-chromium/video-1.webm"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-windows-navigation-Windows-Interact-with-multiple-tabs-chromium/video.webm"
                         },
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/pomtest-addToCart-page-object-test-demo-Add-to-cart-test-03-chromium/test-finished-1.png"
+                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-windows-navigation-Windows-Interact-with-multiple-tabs-chromium/test-finished-1.png"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/Patrick/Desktop/Learn_plyawright/test-results/tests-windows-navigation-Windows-Interact-with-multiple-tabs-chromium/test-finished-2.png"
                         }
                       ]
                     }
@@ -109,10 +141,10 @@
                   "status": "expected"
                 }
               ],
-              "id": "1c188a18f2ecab048a02-77200974a3bb2a17923a",
-              "file": "pomtest/addToCart.test.ts",
-              "line": 42,
-              "column": 3
+              "id": "98c21ebe87e39c315e15-71bf7e8468d365136563",
+              "file": "tests/windows.test.ts",
+              "line": 26,
+              "column": 1
             }
           ]
         }
