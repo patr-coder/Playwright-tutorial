@@ -13,6 +13,7 @@ export default class SpecialHotPage{
     }
     async isToastVisible(){
         const toast =  this.page.locator("a.btn.btn-primary.btn-block");
+        // const toast = this.page.locator("a.list-group-item.active");
         await toast.waitFor({state: "visible"})
         return toast;
 

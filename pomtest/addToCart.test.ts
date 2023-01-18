@@ -4,7 +4,7 @@ import LoginPage from "../page/loginPage";
 import HomePage from "../page/homePage";
 import SpecialHotPage from "../page/specialHotPage";
 
-const email = "network@t-partynersnrsyst.co.jp";
+const email = "network@t-partynersnrsysty.co.jp";
 const password = "0123456789";
 
 // Register Customer Account

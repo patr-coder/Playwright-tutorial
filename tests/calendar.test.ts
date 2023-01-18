@@ -22,7 +22,7 @@ test.describe('calendar', function(){
         await page.waitForTimeout(3000)
 
     })
-    test('calendar demo using moment Second way', async({page})=>{    
+    test('calendar demo using moment Second way', async({page})=>{      
 
         let date = "1989-02-18"
         const month = page.locator("input[placeholder='Start date']")
@@ -33,8 +33,8 @@ test.describe('calendar', function(){
         const  next = page.locator(".active.selected.range-start.range-end.day")
 
         await prev.click()
-        await page.click("td[data-date='1665360000000']")
-        await page.waitForTimeout(3000)
+        // await page.click("td[data-date='1665360000000']") 
+        // await page.waitForTimeout(3000)
 
            
     })

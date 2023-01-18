@@ -24,34 +24,6 @@
           "pomtest/addToCart.test.ts"
         ],
         "timeout": 30000
-      },
-      {
-        "outputDir": "/Users/Patrick/Desktop/Learn_plyawright/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "id": "firefox",
-        "name": "firefox",
-        "testDir": "/Users/Patrick/Desktop/Learn_plyawright",
-        "testIgnore": [],
-        "testMatch": [
-          "**.test.ts",
-          "pomtest/addToCart.test.ts"
-        ],
-        "timeout": 30000
-      },
-      {
-        "outputDir": "/Users/Patrick/Desktop/Learn_plyawright/test-results",
-        "repeatEach": 1,
-        "retries": 0,
-        "id": "webkit",
-        "name": "webkit",
-        "testDir": "/Users/Patrick/Desktop/Learn_plyawright",
-        "testIgnore": [],
-        "testMatch": [
-          "**.test.ts",
-          "pomtest/addToCart.test.ts"
-        ],
-        "timeout": 30000
       }
     ],
     "reporter": [
@@ -114,12 +86,12 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 9384,
+                      "duration": 6708,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-01-13T18:34:22.463Z",
+                      "startTime": "2023-01-18T18:29:00.744Z",
                       "attachments": [
                         {
                           "name": "video",
