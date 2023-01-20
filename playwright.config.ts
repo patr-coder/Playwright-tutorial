@@ -16,7 +16,7 @@ const config: PlaywrightTestConfig = {
 testMatch: ["**.test.ts","pomtest/addToCart.test.ts" ],  // specify the folder will be run 
   use: {
     baseURL: "https://ecommerce-playground.lambdatest.io/index.php?",
-    headless:true, // using browser 
+    headless:false, // using browser 
     screenshot : "on",  // use screenshot
     // screenshot : "off",  // use screenshot
     video : "on" // use video
